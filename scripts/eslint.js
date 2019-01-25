@@ -1,0 +1,4 @@
+const lintedFiles = [
+  'index.js'
+]
+

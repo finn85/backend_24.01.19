@@ -4,12 +4,19 @@
   "description": "testing training",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "eslint": "node ./scripts/eslint.js"
   },
   "author": "Artsiom Finenka",
   "license": "ISC",
   "devDependencies": {
     "chai": "4.2.0",
+    "eslint": "5.12.1",
+    "eslint-plugin-import": "2.15.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
     "mocha": "5.2.0"
-  }
+  },
+  "dependencies": {}
 }

@@ -1,5 +1,5 @@
-function customPow(x, n) {
-  if(x < 0 ||
+function customPow (x, n) {
+  if (x < 0 ||
      n < 0 ||
      x % Math.floor(x) !== 0 ||
      n % Math.floor(n) !== 0 ||
@@ -8,7 +8,7 @@ function customPow(x, n) {
 
   let result = x;
 
-  for(let i = 1; i < n; i++) {
+  for (let i = 1; i < n; i++) {
     result *= x;
   }
 
